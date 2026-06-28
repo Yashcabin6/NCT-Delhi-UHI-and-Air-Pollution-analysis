@@ -1,1 +1,1 @@
-
+(1) file ->2023, (2) file -> 2022, (3) -> 2021, (4) -> 2020, no number -> 2024 for each station csv files, 5 years of data is saved in the csvs. Data is obtained from https://airquality.cpcb.gov.in/ccr/
