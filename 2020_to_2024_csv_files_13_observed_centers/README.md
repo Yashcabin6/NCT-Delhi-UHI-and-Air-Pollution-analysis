@@ -14,4 +14,4 @@ Rohini Delhi,urban,northwest_urban,28.7325,77.1199,"Northwest Delhi urban statio
 Wazirpur Delhi,urban,northwest_industrial_urban,28.6998,77.1654,"Northwest Delhi industrial urban station"  
 Sri Aurobindo Marg,urban,south_urban_green,28.5313,77.1902,"South Delhi urban-green station"  
 ITO New Delhi,urban,central_urban_traffic,28.6286,77.2410,"Central Delhi traffic station"  
-Mandir Marg New Delhi,urban,central_urban,28.6364,77.2011,"Central Delhi climate-support station"   
+Mandir Marg New Delhi,urban,central_urban,28.6364,77.2011,"Central Delhi climate-support station"    
