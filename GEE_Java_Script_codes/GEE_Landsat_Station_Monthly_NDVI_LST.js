@@ -9,6 +9,8 @@
 // Export folder: Classic UHI
 // ============================================================================
 
+//Note that you need to first upload your final_stations.csv file in assets on GEE before you can start processing, for this project I have attached the csv file in caaqms_stations_csv you can refer to that folder
+
 var stations = ee.FeatureCollection(
   'projects/lst-and-ndvi-analysis/assets/final_stations'
 );
