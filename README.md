@@ -19,8 +19,5 @@ Contains CSV files exported from Google Earth Engine for LST, NDVI, and related 
 ### `caaqms_station_csv`
 Contains CAAQMS station-level air quality CSV files used for pollutant analysis.
 
-### `README.md`
-Provides a short description of the repository structure.
-
 ### `UHI_and_Air_pollution_Analysis_of_NCT_Delhi.pdf`
 Final project report PDF.
