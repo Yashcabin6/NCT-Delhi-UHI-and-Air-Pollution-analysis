@@ -2,22 +2,22 @@
 
 ## `Classic_UHI_LST_NDVI_1km_Reference_2020_2024.csv`
 
-- Source: Landsat 8/9 imagery  
-- Spatial resolution: 30 m  
-- Temporal frequency: Lower revisit frequency; monthly values are based on available clear-sky Landsat scenes  
-- Period: 2020–2024  
-- Regions: Urban built-up region and 1 km reference region  
-- Main use: High-resolution daytime LST, daytime SUHI and NDVI seasonality  
+- Source: Landsat 8/9
+- Spatial resolution: 30 m
+- Temporal frequency: about 8-day coverage from combined Landsat 8 and 9, depending on clear-sky availability
+- Period: 2020–2024
+- Regions: Urban and Reference_1km
+- Used for: daytime LST, daytime SUHI, and NDVI seasonality
 - SUHI formula: `SUHI = Urban LST - Reference_1km LST`
-- Note: Landsat LST may show stronger month-to-month fluctuation because fewer clear-sky images are available each month, but it captures local surface variation more sharply.
+- Note: Landsat gives sharper local surface detail, but monthly values can fluctuate more because fewer clear-sky scenes are available.
 
 ## `MODIS_Day_Night_LST_1km_Reference_2020_2024.csv`
 
-- Source: MODIS LST product  
-- Spatial resolution: 1 km  
-- Temporal frequency: Daily observations, aggregated into monthly values  
-- Period: 2020–2024  
-- Regions: Urban built-up region and 1 km reference region  
-- Main use: Daytime LST, nighttime LST, daytime SUHI and nighttime SUHI analysis  
+- Source: MODIS LST
+- Spatial resolution: 1 km
+- Temporal frequency: daily observations aggregated into monthly values
+- Period: 2020–2024
+- Regions: Urban and Reference_1km
+- Used for: daytime LST, nighttime LST, daytime SUHI, and nighttime SUHI
 - SUHI formula: `SUHI = Urban LST - Reference_1km LST`
-- Note: MODIS LST is spatially coarser and usually smoother than Landsat LST because it averages over larger 1 km pixels and more frequent observations.
+- Note: MODIS is smoother than Landsat because of coarser 1 km pixels, but it provides both daytime and nighttime LST.
