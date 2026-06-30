@@ -6,10 +6,10 @@ This folder contains the Python codes used for analysis in the UHI and air pollu
 
 ### 1. `UHI_Study7.ipynb`
 
-- Processes CPCB pollutant data for 13 selected monitoring stations.
-- Creates yearly and monthly pollutant summary tables.
-- Combines MODIS daytime/nighttime SUHI with pollutant averages.
-- Produces SUHI--pollution plots, correlation tables, and pollutant correlation matrices.
+- CPCB pollutant data for 13 selected monitoring stations.
+- Yearly and monthly pollutant summary tables.
+- MODIS daytime/nighttime SUHI with pollutant averages.
+- SUHI--pollution plots, correlation tables, and pollutant correlation matrices.
 
 **Required files:**
 
@@ -17,3 +17,12 @@ This folder contains the Python codes used for analysis in the UHI and air pollu
 - GEE-exported MODIS day/night LST and SUHI CSV files.
 - GEE-exported Landsat LST/NDVI CSV files.
 
+### 2. `UHI_study6.ipynb`
+
+- Monthly SUHI, LST and NDVI analysis notebook using the 1 km reference buffer.
+- Monthly average plots comparing LST, SUHI and NDVI.
+
+**Required files:**
+
+- `MODIS_Day_Night_LST_1km_Reference_2020_2024.csv`
+- `Classic_UHI_LST_NDVI_1km_Reference_2020_2024.csv`
