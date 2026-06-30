@@ -1,8 +1,8 @@
-# Python Analysis Notebooks
+# Python Analysis
 
-This folder contains the Python/Colab notebooks used for analysis in the UHI and air pollution study.
+This folder contains the Python codes used for analysis in the UHI and air pollution study.
 
-## Notebook list
+## list
 
 ### 1. `UHI_Study7.ipynb`
 
