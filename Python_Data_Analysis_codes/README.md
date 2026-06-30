@@ -1,16 +1,14 @@
 # Python Analysis Notebooks
 
-This folder contains the Python/Colab notebooks used for processing, analysis, plotting, and table generation in the UHI and air pollution study.
+This folder contains the Python/Colab notebooks used for analysis in the UHI and air pollution study.
 
 ## Notebook list
 
 ### 1. `UHI_Study7.ipynb`
 
-- Main SUHI and air pollution analysis notebook.
-- Processes CPCB pollutant data for selected monitoring stations.
+- Processes CPCB pollutant data for 13 selected monitoring stations.
 - Creates yearly and monthly pollutant summary tables.
 - Combines MODIS daytime/nighttime SUHI with pollutant averages.
-- Uses Landsat NDVI and station-buffer LST where higher spatial detail is needed.
 - Produces SUHI--pollution plots, correlation tables, and pollutant correlation matrices.
 
 **Required files:**
