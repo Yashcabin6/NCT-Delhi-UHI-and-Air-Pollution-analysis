@@ -19,4 +19,3 @@ This folder contains the Python/Colab notebooks used for processing, analysis, p
 - GEE-exported MODIS day/night LST and SUHI CSV files.
 - GEE-exported Landsat LST/NDVI CSV files.
 
-**Note:** MODIS is used for monthly daytime and nighttime SUHI analysis. Landsat is used for NDVI and higher-resolution station-scale LST analysis.
